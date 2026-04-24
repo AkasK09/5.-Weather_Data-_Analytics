@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\akash\OneDrive\Attachments\Documents\Morphos\Indian_Climate_Dataset_2024_2025.csv")
+df = pd.read_csv(r"dataset path (Indian_Climate_Dataset_2024_2025.csv)")
 df.columns = df.columns.str.strip()
 print(df.columns)
 # ----------------------------
